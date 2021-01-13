@@ -1,0 +1,46 @@
+header
+.header {
+	background-color: var(--secondary);
+	padding: 10px 0;
+	color: #fff;
+	border-bottom: 1px solid #333;
+}
+
+.header .flex {
+	justify-content: space-between;
+}
+
+.header a {
+	padding: 2px 15px;
+	border-radius: 5px;
+}
+
+.header a:hover {
+	animation: pulse; /* referring directly to the animation's @keyframe declaration */
+	animation-duration: 0.5s;
+}
+
+/* login */
+.login h1 {
+	color: var(--accent);
+}
+
+.login img {
+	width: 450px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+}
+
+.login .form-btn {
+	border-radius: 8px;
+}
+
+
+/* footer */
+footer .container {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+
+
